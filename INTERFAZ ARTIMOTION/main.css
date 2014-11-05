@@ -12,10 +12,11 @@ header
 
 #menu
 {
-    border: 1px solid red;
+   
 	display: -webkit-flex;
 	display: flex;
-	
+    background: rgba(0, 0, 0, 0.54);
+   
 }
 
 .item
@@ -23,6 +24,7 @@ header
 	display: -webkit-flex;
 	display: flex;
 	list-style:none;
+   
 }
 
 .grupo
@@ -39,7 +41,6 @@ header
 	flex: 1;
 	width:200px;
 	min-width: 100px;
-	border: 1px solid red;
     background: radial-gradient(#51c888, #29a060);
     
 	
@@ -53,7 +54,7 @@ header
 	flex: 1;
 	width:200px;
 	min-width: 100px;
-	border: 1px solid red;
+	
 	  background: radial-gradient(#54aacb, #0175b2);
 
 }
@@ -64,17 +65,12 @@ header
 	flex: 1;
 	width:200px;
 	min-width: 100px;
-	border: 1px solid red;
+	
 	 background: radial-gradient(#672193, rgb(95, 86, 201));
 
 	}
 
 
-
-/*.nav1
-{
-     
-}
 .nav1 figure
 {
     
@@ -95,7 +91,33 @@ header
 }
 .nav1:after{
     clear: both;
-}*/
- 
+}
+#banner
+{
 
-  
+}
+#banner img
+{
+    width:100%;
+    margin: 10px;
+}
+.caja2
+{
+position: absolute;
+width: 100%;
+background: #2fc272;
+ 
+}
+
+#lg
+{
+position: relative;
+width:15%;
+height:150%; 
+lefht    
+ 
+}
+#lg img
+{
+  width: 90%;  
+}
