@@ -20,8 +20,8 @@ header
 
 .item
 {
-	/*display: -webkit-flex;
-	display: flex;*/
+	display: -webkit-flex;
+	display: flex;
 	list-style:none;
 }
 
@@ -35,13 +35,13 @@ header
 
 .flex1
 {
-	-webkit-flex: initial;
-	flex: initial;
+	-webkit-flex: 1;
+	flex: 1;
 	width:200px;
-	/*min-width: 100px;*/
+	min-width: 100px;
 	border: 1px solid red;
-	background: red;
-
+    background: radial-gradient(#51c888, #29a060);
+    
 	
 	
 	
@@ -52,16 +52,21 @@ header
 	-webkit-flex: 1;
 	flex: 1;
 	width:200px;
-	border: 1px solid blue;	
+	min-width: 100px;
+	border: 1px solid red;
+	  background: radial-gradient(#54aacb, #0175b2);
+
 }
 
 .flex3
 {
-	-webkit-flex: 2;
-	flex: 2;
+	-webkit-flex: 1;
+	flex: 1;
 	width:200px;
-	border: 1px solid violet;
-	
+	min-width: 100px;
+	border: 1px solid red;
+	 background: radial-gradient(#672193, rgb(95, 86, 201));
+
 	}
 
 
